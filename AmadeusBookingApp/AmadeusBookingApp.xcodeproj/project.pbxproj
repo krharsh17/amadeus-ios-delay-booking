@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		996ACBA92ACAD00E000CFBA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBA82ACAD00E000CFBA4 /* AppDelegate.swift */; };
+		996ACBAB2ACAD00E000CFBA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBAA2ACAD00E000CFBA4 /* SceneDelegate.swift */; };
+		996ACBAD2ACAD00E000CFBA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBAC2ACAD00E000CFBA4 /* ViewController.swift */; };
+		996ACBB22ACAD010000CFBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996ACBB12ACAD010000CFBA4 /* Assets.xcassets */; };
+		996ACBB52ACAD010000CFBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996ACBB32ACAD010000CFBA4 /* LaunchScreen.storyboard */; };
+		996ACBBD2ACB3285000CFBA4 /* FlightDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBBC2ACB3285000CFBA4 /* FlightDetailCell.swift */; };
+		996ACBE52ACB9D4E000CFBA4 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBE42ACB9D4E000CFBA4 /* HistoryViewController.swift */; };
+		996ACBED2ACBC219000CFBA4 /* SearchDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBEC2ACBC219000CFBA4 /* SearchDetailsCell.swift */; };
+		996ACBF22ACC3EE8000CFBA4 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBF12ACC3EE8000CFBA4 /* Int.swift */; };
+		996ACBF42ACF738A000CFBA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBF32ACF738A000CFBA4 /* Constants.swift */; };
+		99E5AE2F2AE57103007A5CF2 /* BookFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5AE2E2AE57103007A5CF2 /* BookFlightViewController.swift */; };
+		99E5AE312AE5F607007A5CF2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5AE302AE5F607007A5CF2 /* LoadingView.swift */; };
+		99E5ED842ADDC4ED00EA0234 /* SegmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5ED832ADDC4ED00EA0234 /* SegmentDetailView.swift */; };
+		99E5ED862ADDCB4100EA0234 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5ED852ADDCB4100EA0234 /* SegmentView.swift */; };
+		99E5ED882ADDD03600EA0234 /* FlightInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5ED872ADDD03600EA0234 /* FlightInformationView.swift */; };
+		99E5ED8A2ADDD54B00EA0234 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5ED892ADDD54B00EA0234 /* String.swift */; };
+		99E5ED8C2ADDDF5000EA0234 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5ED8B2ADDDF5000EA0234 /* Date.swift */; };
+		99ED151D2AE74B4D00798EE0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED151C2AE74B4D00798EE0 /* Models.swift */; };
+		99ED151F2AE74BA100798EE0 /* Models+GetFlightOffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED151E2AE74BA100798EE0 /* Models+GetFlightOffers.swift */; };
+		99ED15212AE74BD700798EE0 /* Models+FlightOffersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15202AE74BD700798EE0 /* Models+FlightOffersResponse.swift */; };
+		99ED15232AE74C0400798EE0 /* Models+FlightOrderQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15222AE74C0400798EE0 /* Models+FlightOrderQuery.swift */; };
+		99ED15252AE74C2700798EE0 /* Models+SuccessBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15242AE74C2700798EE0 /* Models+SuccessBooking.swift */; };
+		99ED15272AE74C4000798EE0 /* Models+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15262AE74C4000798EE0 /* Models+Auth.swift */; };
+		99ED15292AE74C5600798EE0 /* Models+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15282AE74C5600798EE0 /* Models+Error.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		996ACBA52ACAD00E000CFBA4 /* AmadeusBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmadeusBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		996ACBA82ACAD00E000CFBA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		996ACBAA2ACAD00E000CFBA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		996ACBAC2ACAD00E000CFBA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		996ACBB12ACAD010000CFBA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		996ACBB42ACAD010000CFBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		996ACBB62ACAD010000CFBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996ACBBC2ACB3285000CFBA4 /* FlightDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailCell.swift; sourceTree = "<group>"; };
+		996ACBE42ACB9D4E000CFBA4 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		996ACBEC2ACBC219000CFBA4 /* SearchDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailsCell.swift; sourceTree = "<group>"; };
+		996ACBF12ACC3EE8000CFBA4 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		996ACBF32ACF738A000CFBA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		99E5AE2E2AE57103007A5CF2 /* BookFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFlightViewController.swift; sourceTree = "<group>"; };
+		99E5AE302AE5F607007A5CF2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		99E5ED832ADDC4ED00EA0234 /* SegmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentDetailView.swift; sourceTree = "<group>"; };
+		99E5ED852ADDCB4100EA0234 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		99E5ED872ADDD03600EA0234 /* FlightInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInformationView.swift; sourceTree = "<group>"; };
+		99E5ED892ADDD54B00EA0234 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		99E5ED8B2ADDDF5000EA0234 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		99ED151C2AE74B4D00798EE0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		99ED151E2AE74BA100798EE0 /* Models+GetFlightOffers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+GetFlightOffers.swift"; sourceTree = "<group>"; };
+		99ED15202AE74BD700798EE0 /* Models+FlightOffersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Models+FlightOffersResponse.swift"; path = "../../../../../../../Desktop/Models+FlightOffersResponse.swift"; sourceTree = "<group>"; };
+		99ED15222AE74C0400798EE0 /* Models+FlightOrderQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+FlightOrderQuery.swift"; sourceTree = "<group>"; };
+		99ED15242AE74C2700798EE0 /* Models+SuccessBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+SuccessBooking.swift"; sourceTree = "<group>"; };
+		99ED15262AE74C4000798EE0 /* Models+Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+Auth.swift"; sourceTree = "<group>"; };
+		99ED15282AE74C5600798EE0 /* Models+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+Error.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		996ACBA22ACAD00E000CFBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		996ACB9C2ACAD00E000CFBA4 = {
+			isa = PBXGroup;
+			children = (
+				996ACBA72ACAD00E000CFBA4 /* AmadeusBookingApp */,
+				996ACBA62ACAD00E000CFBA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		996ACBA62ACAD00E000CFBA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				996ACBA52ACAD00E000CFBA4 /* AmadeusBookingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		996ACBA72ACAD00E000CFBA4 /* AmadeusBookingApp */ = {
+			isa = PBXGroup;
+			children = (
+				996ACBE82ACBACF7000CFBA4 /* Helpers */,
+				996ACBF02ACC3EDA000CFBA4 /* Extensions */,
+				99ED151B2AE74B3B00798EE0 /* Models */,
+				996ACBE92ACBACFD000CFBA4 /* ViewControllers */,
+				996ACBEA2ACBC1EB000CFBA4 /* Cells */,
+				99E5ED822ADDC26000EA0234 /* Views */,
+				996ACBB12ACAD010000CFBA4 /* Assets.xcassets */,
+				996ACBB32ACAD010000CFBA4 /* LaunchScreen.storyboard */,
+				996ACBB62ACAD010000CFBA4 /* Info.plist */,
+			);
+			path = AmadeusBookingApp;
+			sourceTree = "<group>";
+		};
+		996ACBE82ACBACF7000CFBA4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				996ACBA82ACAD00E000CFBA4 /* AppDelegate.swift */,
+				996ACBAA2ACAD00E000CFBA4 /* SceneDelegate.swift */,
+				996ACBF32ACF738A000CFBA4 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		996ACBE92ACBACFD000CFBA4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				996ACBE42ACB9D4E000CFBA4 /* HistoryViewController.swift */,
+				996ACBAC2ACAD00E000CFBA4 /* ViewController.swift */,
+				99E5AE2E2AE57103007A5CF2 /* BookFlightViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		996ACBEA2ACBC1EB000CFBA4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				996ACBBC2ACB3285000CFBA4 /* FlightDetailCell.swift */,
+				996ACBEC2ACBC219000CFBA4 /* SearchDetailsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		996ACBF02ACC3EDA000CFBA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				996ACBF12ACC3EE8000CFBA4 /* Int.swift */,
+				99E5ED892ADDD54B00EA0234 /* String.swift */,
+				99E5ED8B2ADDDF5000EA0234 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		99E5ED822ADDC26000EA0234 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99E5ED832ADDC4ED00EA0234 /* SegmentDetailView.swift */,
+				99E5ED852ADDCB4100EA0234 /* SegmentView.swift */,
+				99E5ED872ADDD03600EA0234 /* FlightInformationView.swift */,
+				99E5AE302AE5F607007A5CF2 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99ED151B2AE74B3B00798EE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99ED151C2AE74B4D00798EE0 /* Models.swift */,
+				99ED15262AE74C4000798EE0 /* Models+Auth.swift */,
+				99ED151E2AE74BA100798EE0 /* Models+GetFlightOffers.swift */,
+				99ED15202AE74BD700798EE0 /* Models+FlightOffersResponse.swift */,
+				99ED15222AE74C0400798EE0 /* Models+FlightOrderQuery.swift */,
+				99ED15242AE74C2700798EE0 /* Models+SuccessBooking.swift */,
+				99ED15282AE74C5600798EE0 /* Models+Error.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		996ACBA42ACAD00E000CFBA4 /* AmadeusBookingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 996ACBB92ACAD010000CFBA4 /* Build configuration list for PBXNativeTarget "AmadeusBookingApp" */;
+			buildPhases = (
+				996ACBA12ACAD00E000CFBA4 /* Sources */,
+				996ACBA22ACAD00E000CFBA4 /* Frameworks */,
+				996ACBA32ACAD00E000CFBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmadeusBookingApp;
+			productName = AmadeusBookingApp;
+			productReference = 996ACBA52ACAD00E000CFBA4 /* AmadeusBookingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		996ACB9D2ACAD00E000CFBA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					996ACBA42ACAD00E000CFBA4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 996ACBA02ACAD00E000CFBA4 /* Build configuration list for PBXProject "AmadeusBookingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 996ACB9C2ACAD00E000CFBA4;
+			productRefGroup = 996ACBA62ACAD00E000CFBA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				996ACBA42ACAD00E000CFBA4 /* AmadeusBookingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		996ACBA32ACAD00E000CFBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996ACBB52ACAD010000CFBA4 /* LaunchScreen.storyboard in Resources */,
+				996ACBB22ACAD010000CFBA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		996ACBA12ACAD00E000CFBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ED15292AE74C5600798EE0 /* Models+Error.swift in Sources */,
+				996ACBED2ACBC219000CFBA4 /* SearchDetailsCell.swift in Sources */,
+				99ED151D2AE74B4D00798EE0 /* Models.swift in Sources */,
+				99E5ED8A2ADDD54B00EA0234 /* String.swift in Sources */,
+				99ED15212AE74BD700798EE0 /* Models+FlightOffersResponse.swift in Sources */,
+				996ACBAD2ACAD00E000CFBA4 /* ViewController.swift in Sources */,
+				99ED15272AE74C4000798EE0 /* Models+Auth.swift in Sources */,
+				996ACBA92ACAD00E000CFBA4 /* AppDelegate.swift in Sources */,
+				996ACBBD2ACB3285000CFBA4 /* FlightDetailCell.swift in Sources */,
+				99E5AE312AE5F607007A5CF2 /* LoadingView.swift in Sources */,
+				99ED151F2AE74BA100798EE0 /* Models+GetFlightOffers.swift in Sources */,
+				99E5AE2F2AE57103007A5CF2 /* BookFlightViewController.swift in Sources */,
+				99ED15252AE74C2700798EE0 /* Models+SuccessBooking.swift in Sources */,
+				996ACBE52ACB9D4E000CFBA4 /* HistoryViewController.swift in Sources */,
+				99E5ED882ADDD03600EA0234 /* FlightInformationView.swift in Sources */,
+				996ACBAB2ACAD00E000CFBA4 /* SceneDelegate.swift in Sources */,
+				99E5ED8C2ADDDF5000EA0234 /* Date.swift in Sources */,
+				99ED15232AE74C0400798EE0 /* Models+FlightOrderQuery.swift in Sources */,
+				99E5ED842ADDC4ED00EA0234 /* SegmentDetailView.swift in Sources */,
+				996ACBF22ACC3EE8000CFBA4 /* Int.swift in Sources */,
+				99E5ED862ADDCB4100EA0234 /* SegmentView.swift in Sources */,
+				996ACBF42ACF738A000CFBA4 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		996ACBB32ACAD010000CFBA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				996ACBB42ACAD010000CFBA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		996ACBB72ACAD010000CFBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		996ACBB82ACAD010000CFBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		996ACBBA2ACAD010000CFBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmadeusBookingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmadeusBookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		996ACBBB2ACAD010000CFBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmadeusBookingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmadeusBookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		996ACBA02ACAD00E000CFBA4 /* Build configuration list for PBXProject "AmadeusBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996ACBB72ACAD010000CFBA4 /* Debug */,
+				996ACBB82ACAD010000CFBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		996ACBB92ACAD010000CFBA4 /* Build configuration list for PBXNativeTarget "AmadeusBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996ACBBA2ACAD010000CFBA4 /* Debug */,
+				996ACBBB2ACAD010000CFBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 996ACB9D2ACAD00E000CFBA4 /* Project object */;
+}
