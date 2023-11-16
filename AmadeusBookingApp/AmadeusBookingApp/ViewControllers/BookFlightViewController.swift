@@ -144,9 +144,7 @@ final class BookFlightViewController: UIViewController {
         guard let self = self else { return }
         DispatchQueue.main.async {
             let alert = UIAlertController(title: "Error", message: "We were unable to retrieve the data for the following reason(s):\n\n\(errorDescription)\n\nPlease try again later.", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
-                
-            }))
+            alert.addAction(UIAlertAction(title: "OK", style: .cancel))
             self.present(alert, animated: true)
         }
         

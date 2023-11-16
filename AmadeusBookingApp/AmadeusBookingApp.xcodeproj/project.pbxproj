@@ -17,6 +17,7 @@
 		996ACBED2ACBC219000CFBA4 /* SearchDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBEC2ACBC219000CFBA4 /* SearchDetailsCell.swift */; };
 		996ACBF22ACC3EE8000CFBA4 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBF12ACC3EE8000CFBA4 /* Int.swift */; };
 		996ACBF42ACF738A000CFBA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996ACBF32ACF738A000CFBA4 /* Constants.swift */; };
+		99C260F02B05A91C00F8D6D7 /* Models+FlightOffersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C260EF2B05A91C00F8D6D7 /* Models+FlightOffersResponse.swift */; };
 		99E5AE2F2AE57103007A5CF2 /* BookFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5AE2E2AE57103007A5CF2 /* BookFlightViewController.swift */; };
 		99E5AE312AE5F607007A5CF2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5AE302AE5F607007A5CF2 /* LoadingView.swift */; };
 		99E5ED842ADDC4ED00EA0234 /* SegmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5ED832ADDC4ED00EA0234 /* SegmentDetailView.swift */; };
@@ -26,7 +27,6 @@
 		99E5ED8C2ADDDF5000EA0234 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5ED8B2ADDDF5000EA0234 /* Date.swift */; };
 		99ED151D2AE74B4D00798EE0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED151C2AE74B4D00798EE0 /* Models.swift */; };
 		99ED151F2AE74BA100798EE0 /* Models+GetFlightOffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED151E2AE74BA100798EE0 /* Models+GetFlightOffers.swift */; };
-		99ED15212AE74BD700798EE0 /* Models+FlightOffersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15202AE74BD700798EE0 /* Models+FlightOffersResponse.swift */; };
 		99ED15232AE74C0400798EE0 /* Models+FlightOrderQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15222AE74C0400798EE0 /* Models+FlightOrderQuery.swift */; };
 		99ED15252AE74C2700798EE0 /* Models+SuccessBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15242AE74C2700798EE0 /* Models+SuccessBooking.swift */; };
 		99ED15272AE74C4000798EE0 /* Models+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15262AE74C4000798EE0 /* Models+Auth.swift */; };
@@ -46,6 +46,7 @@
 		996ACBEC2ACBC219000CFBA4 /* SearchDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailsCell.swift; sourceTree = "<group>"; };
 		996ACBF12ACC3EE8000CFBA4 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		996ACBF32ACF738A000CFBA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		99C260EF2B05A91C00F8D6D7 /* Models+FlightOffersResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Models+FlightOffersResponse.swift"; sourceTree = "<group>"; };
 		99E5AE2E2AE57103007A5CF2 /* BookFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFlightViewController.swift; sourceTree = "<group>"; };
 		99E5AE302AE5F607007A5CF2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		99E5ED832ADDC4ED00EA0234 /* SegmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentDetailView.swift; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		99E5ED8B2ADDDF5000EA0234 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		99ED151C2AE74B4D00798EE0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		99ED151E2AE74BA100798EE0 /* Models+GetFlightOffers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+GetFlightOffers.swift"; sourceTree = "<group>"; };
-		99ED15202AE74BD700798EE0 /* Models+FlightOffersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Models+FlightOffersResponse.swift"; path = "../../../../../../../Desktop/Models+FlightOffersResponse.swift"; sourceTree = "<group>"; };
 		99ED15222AE74C0400798EE0 /* Models+FlightOrderQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+FlightOrderQuery.swift"; sourceTree = "<group>"; };
 		99ED15242AE74C2700798EE0 /* Models+SuccessBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+SuccessBooking.swift"; sourceTree = "<group>"; };
 		99ED15262AE74C4000798EE0 /* Models+Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+Auth.swift"; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 				99ED151C2AE74B4D00798EE0 /* Models.swift */,
 				99ED15262AE74C4000798EE0 /* Models+Auth.swift */,
 				99ED151E2AE74BA100798EE0 /* Models+GetFlightOffers.swift */,
-				99ED15202AE74BD700798EE0 /* Models+FlightOffersResponse.swift */,
+				99C260EF2B05A91C00F8D6D7 /* Models+FlightOffersResponse.swift */,
 				99ED15222AE74C0400798EE0 /* Models+FlightOrderQuery.swift */,
 				99ED15242AE74C2700798EE0 /* Models+SuccessBooking.swift */,
 				99ED15282AE74C5600798EE0 /* Models+Error.swift */,
@@ -243,7 +243,7 @@
 				996ACBED2ACBC219000CFBA4 /* SearchDetailsCell.swift in Sources */,
 				99ED151D2AE74B4D00798EE0 /* Models.swift in Sources */,
 				99E5ED8A2ADDD54B00EA0234 /* String.swift in Sources */,
-				99ED15212AE74BD700798EE0 /* Models+FlightOffersResponse.swift in Sources */,
+				99C260F02B05A91C00F8D6D7 /* Models+FlightOffersResponse.swift in Sources */,
 				996ACBAD2ACAD00E000CFBA4 /* ViewController.swift in Sources */,
 				99ED15272AE74C4000798EE0 /* Models+Auth.swift in Sources */,
 				996ACBA92ACAD00E000CFBA4 /* AppDelegate.swift in Sources */,

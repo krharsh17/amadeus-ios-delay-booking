@@ -18,8 +18,8 @@ final class Constants {
     static let flightOffersUrl = "/shopping/flight-offers"
     static let flightOrderUrl = "/booking/flight-orders"
     
-    static let clientId = "YOUR_CLIENT_ID"
-    static let clientSecret = "YOUR_CLIENT_SECRET"
+    static let clientId = "SWrGF5PZUAwTTOo7HnWH5bN3VyFj7JMJ"
+    static let clientSecret = "ZgmeBoGkIzwQjwZZ"
     
     // MARK: - Auth Token
     
