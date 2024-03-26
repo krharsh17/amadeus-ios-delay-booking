@@ -31,6 +31,9 @@
 		99ED15252AE74C2700798EE0 /* Models+SuccessBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15242AE74C2700798EE0 /* Models+SuccessBooking.swift */; };
 		99ED15272AE74C4000798EE0 /* Models+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15262AE74C4000798EE0 /* Models+Auth.swift */; };
 		99ED15292AE74C5600798EE0 /* Models+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED15282AE74C5600798EE0 /* Models+Error.swift */; };
+		DDC746B02BB2A1800079FEA3 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC746AF2BB2A1800079FEA3 /* CustomHeaderView.swift */; };
+		DDC746B22BB2A26A0079FEA3 /* FindAlternativeFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC746B12BB2A26A0079FEA3 /* FindAlternativeFlightViewController.swift */; };
+		DDC746B42BB2A3010079FEA3 /* Models+DelayPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC746B32BB2A3010079FEA3 /* Models+DelayPrediction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,9 @@
 		99ED15242AE74C2700798EE0 /* Models+SuccessBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+SuccessBooking.swift"; sourceTree = "<group>"; };
 		99ED15262AE74C4000798EE0 /* Models+Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+Auth.swift"; sourceTree = "<group>"; };
 		99ED15282AE74C5600798EE0 /* Models+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+Error.swift"; sourceTree = "<group>"; };
+		DDC746AF2BB2A1800079FEA3 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		DDC746B12BB2A26A0079FEA3 /* FindAlternativeFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAlternativeFlightViewController.swift; sourceTree = "<group>"; };
+		DDC746B32BB2A3010079FEA3 /* Models+DelayPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+DelayPrediction.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 				996ACBE42ACB9D4E000CFBA4 /* HistoryViewController.swift */,
 				996ACBAC2ACAD00E000CFBA4 /* ViewController.swift */,
 				99E5AE2E2AE57103007A5CF2 /* BookFlightViewController.swift */,
+				DDC746B12BB2A26A0079FEA3 /* FindAlternativeFlightViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -151,6 +158,7 @@
 				99E5ED852ADDCB4100EA0234 /* SegmentView.swift */,
 				99E5ED872ADDD03600EA0234 /* FlightInformationView.swift */,
 				99E5AE302AE5F607007A5CF2 /* LoadingView.swift */,
+				DDC746AF2BB2A1800079FEA3 /* CustomHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +173,7 @@
 				99ED15222AE74C0400798EE0 /* Models+FlightOrderQuery.swift */,
 				99ED15242AE74C2700798EE0 /* Models+SuccessBooking.swift */,
 				99ED15282AE74C5600798EE0 /* Models+Error.swift */,
+				DDC746B32BB2A3010079FEA3 /* Models+DelayPrediction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,8 +257,11 @@
 				99ED15272AE74C4000798EE0 /* Models+Auth.swift in Sources */,
 				996ACBA92ACAD00E000CFBA4 /* AppDelegate.swift in Sources */,
 				996ACBBD2ACB3285000CFBA4 /* FlightDetailCell.swift in Sources */,
+				DDC746B22BB2A26A0079FEA3 /* FindAlternativeFlightViewController.swift in Sources */,
 				99E5AE312AE5F607007A5CF2 /* LoadingView.swift in Sources */,
 				99ED151F2AE74BA100798EE0 /* Models+GetFlightOffers.swift in Sources */,
+				DDC746B42BB2A3010079FEA3 /* Models+DelayPrediction.swift in Sources */,
+				DDC746B02BB2A1800079FEA3 /* CustomHeaderView.swift in Sources */,
 				99E5AE2F2AE57103007A5CF2 /* BookFlightViewController.swift in Sources */,
 				99ED15252AE74C2700798EE0 /* Models+SuccessBooking.swift in Sources */,
 				996ACBE52ACB9D4E000CFBA4 /* HistoryViewController.swift in Sources */,
@@ -404,7 +416,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z2U7934W7L;
+				DEVELOPMENT_TEAM = C6SS755P33;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AmadeusBookingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -431,7 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z2U7934W7L;
+				DEVELOPMENT_TEAM = C6SS755P33;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AmadeusBookingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

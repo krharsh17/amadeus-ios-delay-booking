@@ -30,6 +30,16 @@ struct FlightDetails: Encodable, Decodable {
     let pricingOptions: PricingOption
     let validatingAirlineCodes: [String]
     let travelerPricings: [TravelerPricingDetails]
+    var flightSegments: [SegmentDetails] {
+        var segments: [SegmentDetails] = []
+        for itinerary in itineraries {
+            segments.append(contentsOf: itinerary.segments)
+        }
+        return segments
+    }
+    static func == (lhs: FlightDetails, rhs: FlightDetails) -> Bool {
+       lhs.id == rhs.id && lhs.type == rhs.type && lhs.source == rhs.source && lhs.instantTicketingRequired == rhs.instantTicketingRequired && lhs.nonHomogeneous == rhs.nonHomogeneous && lhs.oneWay == rhs.oneWay && lhs.lastTicketingDate == rhs.lastTicketingDate && lhs.itineraries.count == rhs.itineraries.count && lhs.price.total == rhs.price.total && lhs.validatingAirlineCodes.first == rhs.validatingAirlineCodes.first && lhs.validatingAirlineCodes.count == rhs.validatingAirlineCodes.count && lhs.validatingAirlineCodes.first == rhs.validatingAirlineCodes.first && lhs.validatingAirlineCodes.last == rhs.validatingAirlineCodes.last && lhs.travelerPricings.count == rhs.travelerPricings.count && lhs.flightSegments.count == rhs.flightSegments.count && lhs.flightSegments.first?.departure.iataCode == lhs.flightSegments.first?.departure.iataCode && lhs.flightSegments.first?.arrival.iataCode == lhs.flightSegments.first?.arrival.iataCode && lhs.flightSegments.last?.departure.iataCode == lhs.flightSegments.last?.departure.iataCode && lhs.flightSegments.last?.arrival.iataCode == lhs.flightSegments.last?.arrival.iataCode
+   }
 }
 
 struct ItineraryDetails: Encodable, Decodable {

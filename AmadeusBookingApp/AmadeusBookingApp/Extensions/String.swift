@@ -36,4 +36,27 @@ extension String {
         return dateFormatter.string(from: date ?? Date())
     }
     
+    var dateOnly: String {
+            let dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = dateFormat
+            let date = dateFormatter.date(from: self)
+            let newFormat = "yyyy-MM-dd"
+            dateFormatter.dateFormat = newFormat
+            return dateFormatter.string(from: date ?? Date())
+        }
+        
+        var timeOnly: String {
+            let dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = dateFormat
+            let date = dateFormatter.date(from: self)
+            let newFormat = "HH:mm:ss"
+            dateFormatter.dateFormat = newFormat
+            return dateFormatter.string(from: date ?? Date())
+        }
+    
+    var integerValue: Int {
+            return Int((Double(self) ?? 0) * 100)
+        }
 }
